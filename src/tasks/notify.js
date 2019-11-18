@@ -14,9 +14,17 @@ bot.configureIncomingWebhook({ url: config('WEBHOOK_URL') })
 const msgDefaults = {
   response_type: 'in_channel',
   username: 'Starbot',
-  icon_emoji: config('ICON_EMOJI')
+  icon_emoji: config('ICON_EMOJI'),
+  text: "hi3"
 }
 
+  bot.sendWebhook(msgDefaults, (err, res) => {
+    if (err) throw err
+
+    console.log(`\n🚀  Starbot report delivered 🚀`)
+  })
+
+/*
 trending('javascript', (err, repos) => {
   if (err) throw err
 
@@ -37,3 +45,4 @@ trending('javascript', (err, repos) => {
     console.log(`\n🚀  Starbot report delivered 🚀`)
   })
 })
+*/
