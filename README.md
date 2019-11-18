@@ -4,8 +4,7 @@
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
-Starbot is [GitHub's trending open-source](https://github.com/trending/) page, reincarnated as a Slack bot. It is also the sample referenced in the ["How to Deploy Your Slack Bots to Heroku"](https://blog.heroku.com/archives/2016/3/9/how-to-deploy-your-slack-bots-to-heroku) blog post.
-
+Starbot is an example of a slackbot It is also the sample referenced in the ["How to Deploy Your Slack Bots to Heroku"](https://blog.heroku.com/archives/2016/3/9/how-to-deploy-your-slack-bots-to-heroku) blog post.
 
 ### Supported `/slash` commands
 
@@ -29,7 +28,6 @@ $ cp .env-example .env
 ### Configure
 
 ```shell
-SLACK_TEAM_TOKEN=xoxb...8WRqKWx
 NODE_ENV=development
 PORT=3000
 ```
