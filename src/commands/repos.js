@@ -32,7 +32,7 @@ const handler = (payload, res) => {
     }, msgDefaults)
 */
     res.set('content-type', 'application/json')
-    res.status(200).json(msg)
+    res.status(200).json(msgDefaults)
     return
   //})
 }
